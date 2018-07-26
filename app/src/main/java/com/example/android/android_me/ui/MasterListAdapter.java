@@ -17,11 +17,14 @@
 package com.example.android.android_me.ui;
 
 import android.content.Context;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.example.android.android_me.R;
 
 import java.util.List;
 
@@ -80,5 +83,4 @@ public class MasterListAdapter extends BaseAdapter {
         imageView.setImageResource(mImageIds.get(position));
         return imageView;
     }
-
 }
